@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-align: center;
+    align-items: center;
+}
+
+body {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffe5e5;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 300px; /* Ajustado para permitir un GIF de tamaño mediano */
+    margin: 20px;
+}
+
+.container .tenor-gif-embed {
+    display: flex;
+    max-width: 100%; /* Asegura que el GIF no exceda el contenedor */
+    max-height: 300px; /* Establece una altura máxima para el GIF */
+    text-align: center;
+    align-items: center;
+}
+
+.container .btn-container {
+    display: flex;
+    gap: 25px;
+    text-align: center;
+    align-items: center;
+    justify-content: center; /* Asegura que los botones estén centrados horizontalmente */
+}
+
+.btn {
+    text-decoration: none;
+    color: black;
+    background: #fff;
+    padding: 10px 25px;
+    border-radius: 8px;
+    box-shadow: 0.5rem 1rem 3rem hsl(0, 0, 0, 0.3);
+    text-align: center;
+    align-items: center;
+    width: 100px; /* Ancho fijo para asegurar un cuadro exacto */
+    height: 50px; /* Altura fija para asegurar un cuadro exacto */
+    display: flex;
+    justify-content: center; /* Centra el texto dentro del botón */
+    align-items: center; /* Centra el texto dentro del botón */
+}
